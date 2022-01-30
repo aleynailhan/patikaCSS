@@ -1,0 +1,146 @@
+ 
+body{
+margin:0;
+padding:0;
+background: url(resim/bg.png) repeat-x #e0e0df;
+}
+a{
+text-decoration: none;
+}
+.sayfa{
+width: 980px;
+margin:auto;
+}
+ .siteadi a h1{
+text-align: center;/*yazıyı ortala*/
+margin:35px 0 0 0;
+padding:0;
+font-size:4em;
+font-family: sans-serif;
+color:#868686;
+text-shadow: #4c4b4b -1px -1px,#fff 1px 1px;
+}
+.slogan p{
+    padding:0;
+    margin:0;
+    text-align: right;
+    padding-right: 240px;
+    color:#3376a6;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    font-style: italic;
+}
+ .ust-menu{
+    margin-top:26px;
+}
+ 
+.ust-menu ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+ 
+.ust-menu ul li{
+    float: left;
+    border-left:#a8c5de solid 1px;
+    border-right:#92afc8 solid 1px;
+}
+ 
+.ust-menu ul li:first-child{
+    border-left:none;
+}
+ 
+.ust-menu ul li:last-child{
+    border-right:none;
+}
+ 
+.ust-menu ul li a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding:0 40px;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    color:#fff;
+}
+ 
+.ust-menu ul li a:hover{
+background: #336fa4;
+}
+ .orta-sol{
+    width: 680px;
+    float:left;
+}
+ 
+.urun{
+    padding:10px ;
+    background: #d8f2be;
+    margin:10px 10px 0 0;
+}
+ 
+.urun-resim{
+    float:left;
+    margin:0 10px 10px 0;
+}
+ 
+.urun-baslik{
+    margin:0px;
+    font-family: sans-serif;
+    font-size: 1.6em;
+    color:#4a6f55;
+}
+ 
+.urun-ozet{
+    margin-top:10px;
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.6em;
+    color:#5e7b67;
+}
+ 
+.urun-ozet a{
+    color:#207eae;
+}
+ 
+.orta-sag{
+    float:left;
+    width: 300px;
+}
+.panel{
+    background: #fcb8b8;
+    margin:10px 0 10px 10px;
+}
+ 
+.panel-baslik{
+    background: #fc5151;
+}
+ 
+.panel-baslik h2{
+    margin:0px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    color:#fff;
+    font-weight: 400;
+}
+ 
+.panel-bolum .populer{
+    border-bottom:#fc5151 solid 1px;
+    padding-bottom:10px;
+    margin:0 10px 0 10px;
+}
+ 
+.panel-bolum .populer img{
+    padding:0 10px 10px 0;
+    float:left;
+    width: 90px;
+}
+ 
+.panel-bolum .populer h3{
+    color:#fff;
+    font-family: sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 1em;
+}
